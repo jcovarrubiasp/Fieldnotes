@@ -14,48 +14,58 @@ library(lubridate)
 ## Journal Entry 1
 
 ```{r metadata_1, echo=FALSE, results='asis'}
-observer_1 <- "FILL YOUR NAME"
-date_observed_1 <- mdy("01/01/1990")
-date_written_up_1 <- mdy("01/01/1990")
-location_1 <- "FILL LOCATION"
+observer_1 <- "Janeth Covarrubias Perez"
+date_observed_1 <- mdy("10/31/2023")
+date_written_up_1 <- mdy("11/11/2023")
+location_1 <- "Smith's Botanical Garden"
 
 cat(paste0("This entry documents a data environment ", observer_1, " observed on ", date_observed_1, " in ", location_1, ". The observations were written up on ", date_written_up_1, "."))
 ```
 
-[Enter your write-up here.]
+[**Accessibility Smith’s Botanical Garden**
+
+For this fieldnote, my group and I observed a map of Smith’s botanical garden. We first thought about the way the map was built through data on plants to be classified. The botanical garden map is divided into plant families and categories according to the geographic origin of each plant group. This becomes an infrastructure that both visitors and gardenkeepers use by enabling efficient exploration of the many sections and attractions of the garden. It also facilitates visitors’ learning experience about plant species and their characteristics. For plant information and identification data collection was done on each plant species, with botanical details, ecological preferences, and distribution of plants across the garden spaces. Within this system plants’ ecological conditions are collected for conservation and care initiatives. This allows for the map to become a managing and monitoring tool for biodiversity, and well well-being of the plants by assisting the garden staff in planning maintenance schedules and prioritizing areas that require more attention(i.e. Plants in the cold-temperature house section need more care than the succulent and warm-temperature plants). 
+
+We also looked at the Smith’s Botanical Garden accessibility map which outlined wheelchair-friendly paths, exits, and elevators. We found that there are only three disability-accessible entrances throughout the entire garden. Red X’s are used to indicate the inaccessibility at some entrances. There are more red X’s than accessible entrances indicating that the structure of this garden wasn't made for people with disabilities. For other accessibility concerns, in terms of language and blind individuals. There is no specified center point to where these individuals can go to get assistance. My group and I asked the person at the entrance if they had any devices that could translate the signs in English into other languages or if there was an audio device that aided and guided blind individuals. Both questions got us a no. Smith had a couple of audio devices but they don’t work anymore and are not up to date. The learning experience is not accessible equally to every visitor if you don’t speak English. I’m wondering how the decision-making behind the botanical garden is made knowing there’s a big international student population with parents who might not speak English.]
 
 ### Completion Checklist
 > Enter an `x` between each [] in order to indicate that you're write-up meets the criteria.
 
-[ ] Write-up is 300-400 words.
-[ ] Write-up is *primarily about* a statistic, dataset, data standard, or data collection environment encountered in the past two weeks.
-[ ] Write-up addresses the question: *What socio-cultural forces are at play in shaping this statistic, dataset, data standard, or data collection environment?*
-[ ] Write-up references and defines a concept from the course's [*Knowledge and Understanding*](https://sds-237-data-ethnography.github.io/public-website-fall-23/learning_dimensions.html#knowledge-and-understanding) learning dimension.
-[ ] **The referenced concept is specifically used to analyze the socio-cultural forces animating the data's cultural meaning.** 
-[ ] The concept is **bolded** in the write-up. 
+[x ] Write-up is 300-400 words.
+[ x] Write-up is *primarily about* a statistic, dataset, data standard, or data collection environment encountered in the past two weeks.
+[ x] Write-up addresses the question: *What socio-cultural forces are at play in shaping this statistic, dataset, data standard, or data collection environment?*
+[ x] Write-up references and defines a concept from the course's [*Knowledge and Understanding*](https://sds-237-data-ethnography.github.io/public-website-fall-23/learning_dimensions.html#knowledge-and-understanding) learning dimension.
+[ x] **The referenced concept is specifically used to analyze the socio-cultural forces animating the data's cultural meaning.** 
+[ x] The concept is **bolded** in the write-up. 
 
 ## Journal Entry 2 
 
 ```{r metadata_2, echo=FALSE, results='asis'}
-observer_2 <- "FILL YOUR NAME"
-date_observed_2 <- mdy("01/01/1990")
-date_written_up_2 <- mdy("01/01/1990")
+observer_2 <- "Janeth Covarrubias Perez"
+date_observed_2 <- mdy("12/20/2023")
+date_written_up_2 <- mdy("12/20/2023")
 location_2 <- "FILL LOCATION"
 
 cat(paste0("This entry documents a data environment ", observer_2, " observed on ", date_observed_2, " in ", location_2, ". The observations were written up on ", date_written_up_2, "."))
 ```
 
-[Enter your write-up here.]
+[**VisionZero across the US**
+For one of my SDS courses this semester my group had a project that focused on looking at data trends for cities across the US that implemented the VisionZero initiative. VisionZero is a road safety initiative and philosophy that has been adopted by many cities around the US. The fundamental principle of Vision Zero is that every traffic-related death or serious injury is preventable, and the goal is to achieve a transportation system with zero fatalities or severe injuries.
+VisionZero is only implemented in 52 cities across the US. After doing some research, I found that within the cities that were chosen “about half of the initiatives had community stakeholders willing to gather, analyze, utilize, and share data to understand traffic issues and prioritize resources. Many Vision Zero initiatives explore the safety data by indicators of wealth and other demographic characteristics to target efforts to underserved communities, often called a high injury network (Fox and Shahum, 2017).” This is interesting because, in parts of the city where I live, which is considered one of the areas with the most disadvantaged populations, most of the community that could serve as stakeholders cannot miss a day of work since their families live paycheck by paycheck which makes them less involved in decisionmaking regarding issues that affect them directly.
+Another part of the data that might not be explicitly represented in this dataset is economic inequality and its effect on road safety. Disadvantaged communities might not receive the same level of VisionZero safety measures, perpetuating existing disparities in safety and access. As neighborhoods become wealthier, the initial, often minority, residents may be pushed out, and the benefits of Vision Zero may not reach those who need them the most. For example, vehicular fatalities may be influenced by economic factors like affordability of safe vehicles, access to driver education, and the availability of public transportation alternatives depending on the area where people live(usually wealthier parts of cities have more access to transportation alternatives). 
+Public transportation as an infrastructure is oftentimes a vital component of urban and regional infrastructure, providing mobility and connectivity for residents and businesses. However low-income neighborhoods may have fewer transit options and less connectivity to major employment or economic centers therefore creating more challenges for residents in these areas to commute to work, limiting their job opportunities and economic mobility.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10594405/ ]
 
 ### Completion Checklist
 > Enter an `x` between each [] in order to indicate that you're write-up meets the criteria.
 
-[ ] Write-up is 300-400 words.
-[ ] Write-up is *primarily about* a statistic, dataset, data standard, or data collection environment encountered in the past two weeks.
-[ ] Write-up addresses the question: *What socio-cultural forces are at play in shaping this statistic, dataset, data standard, or data collection environment?*
-[ ] Write-up references and defines a concept from the course's [*Knowledge and Understanding*](https://sds-237-data-ethnography.github.io/public-website-fall-23/learning_dimensions.html#knowledge-and-understanding) learning dimension.
-[ ] **The referenced concept is specifically used to analyze the socio-cultural forces animating the data's cultural meaning.** 
-[ ] The concept is **bolded** in the write-up. 
+[x] Write-up is 300-400 words.
+[x] Write-up is *primarily about* a statistic, dataset, data standard, or data collection environment encountered in the past two weeks.
+[x] Write-up addresses the question: *What socio-cultural forces are at play in shaping this statistic, dataset, data standard, or data collection environment?*
+[x] Write-up references and defines a concept from the course's [*Knowledge and Understanding*](https://sds-237-data-ethnography.github.io/public-website-fall-23/learning_dimensions.html#knowledge-and-understanding) learning dimension.
+[x] **The referenced concept is specifically used to analyze the socio-cultural forces animating the data's cultural meaning.** 
+[x] The concept is **bolded** in the write-up. 
 
 ## Journal Entry 3
 
